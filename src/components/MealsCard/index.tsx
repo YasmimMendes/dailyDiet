@@ -1,6 +1,6 @@
 import { TouchableOpacityProps } from 'react-native';
-import { Container, Divider, Status, Time, Title } from "./styles"
-import { useTheme } from "styled-components/native"
+import { Container, Divider, Status, Time, Title } from "./styles";
+import { useTheme } from "styled-components/native";
 
 type Props = TouchableOpacityProps & {
     time: string;
